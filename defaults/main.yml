@@ -14,3 +14,6 @@ maas_repo: 'ppa:maas/stable'
 maas_setup_user: false
 
 maas_single_node_install: true
+
+# Whether to install KVM components
+maas_kvm: false

@@ -67,6 +67,7 @@
   apt:
     name: "libvirt-bin"
     state: "present"
+  when: maas_kvm
 
 - name: install | Installing MAAS Python Module(s)
   pip:
