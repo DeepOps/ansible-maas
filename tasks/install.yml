@@ -74,7 +74,7 @@
     state: "present"
   with_items:
     - 'argparse'
-    - 'argparse_config'
+    #- 'argparse_config'
     - 'httplib2'
     - 'jinja2'
     - 'maasutil'
