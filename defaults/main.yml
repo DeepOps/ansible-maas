@@ -7,7 +7,7 @@ maas_adminusers:
 maas_dns_domain: 'vagrant.local'
 maas_region_controller: '192.168.250.10'
 maas_region_controller_url: 'http://{{ maas_region_controller }}:5240/MAAS'
-maas_repo: 'ppa:maas/stable'
+maas_repo: 'ppa:maas/2.8'
 
 # Defines if maas user should generate ssh keys
 # Usable for remote KVM/libvirt power actions
